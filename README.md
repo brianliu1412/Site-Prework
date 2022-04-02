@@ -1,6 +1,6 @@
 # Pre-work - *Memory Game*
 
-**Tile Matcher** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
+**Ocean Tones** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
 Submitted by: **Brian Liu**
 
