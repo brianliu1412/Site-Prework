@@ -1,0 +1,188 @@
+ /* a minimalist set of CSS resets */
+
+
+/* default to border-box */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  background: url(https://cdn.glitch.global/48663716-e0a2-4d64-bbe3-fe368046a8b0/beach.jpeg?v=1648858589395) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+#container{
+  display: flex;
+  flex-direction: column;
+}
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+#textbox {
+  background: url(https://cdn.glitch.global/48663716-e0a2-4d64-bbe3-fe368046a8b0/conversation.png?v=1648872481054);
+  background-size: cover;
+  height: 120px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  text-align: center;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+.spacer {
+  height: 120px;
+  width: 220px;
+}
+#spacer2 {
+  height: 40px;
+  width:120px;
+}
+#space1 {
+  height: 70px;
+}
+#movetext {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  
+}
+#text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: verdana, arial, sans-serif; 
+}
+.startstop {
+  border: 0;
+  box-shadow: none;
+  border-radius: 0px;
+  
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+button {
+  padding: 10px;
+border-radius: 10px;
+}
+
+#startBtn{
+  background: url(https://cdn.glitch.global/48663716-e0a2-4d64-bbe3-fe368046a8b0/shipalt.png?v=1648872063118);
+  width:150px;
+  height:150px;
+  margin:2px;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0px;
+  background-size: cover;
+  
+}
+#stopBtn{
+  background: url(https://cdn.glitch.global/48663716-e0a2-4d64-bbe3-fe368046a8b0/ship.png?v=1648871777821);
+  width:150px;
+  height:150px;
+  margin:2px;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0px;
+  background-size: cover;
+  
+}
+
+#ship {
+  display: flex;
+  justify-content: center;
+}
+
+#button1 {
+    background: url(https://cdn.glitch.global/48663716-e0a2-4d64-bbe3-fe368046a8b0/castle1.png?v=1648870047924);
+    background-size: cover;
+}
+#button1:active, #button1.lit {
+    background: url(https://cdn.glitch.global/48663716-e0a2-4d64-bbe3-fe368046a8b0/castle1alt.png?v=1648870044412);
+    background-size: cover;
+}
+#button2 {
+    background: url(https://cdn.glitch.global/48663716-e0a2-4d64-bbe3-fe368046a8b0/castle2.png?v=1648870053457);
+    background-size: cover;
+}
+#button2:active, #button2.lit {
+    background: url(https://cdn.glitch.global/48663716-e0a2-4d64-bbe3-fe368046a8b0/castle2alt.png?v=1648870056901);
+    background-size: cover;
+}
+#button3 {
+    background: url(https://cdn.glitch.global/48663716-e0a2-4d64-bbe3-fe368046a8b0/castle3.png?v=1648870060693);
+    background-size: cover;
+}
+#button3:active, #button3.lit {
+    background: url(https://cdn.glitch.global/48663716-e0a2-4d64-bbe3-fe368046a8b0/castle3alt.png?v=1648870063884);
+    background-size: cover;
+}
+#button4 {
+    background: url(https://cdn.glitch.global/48663716-e0a2-4d64-bbe3-fe368046a8b0/castle4.png?v=1648870067139);
+    background-size: cover;
+}
+#button4:active, #button4.lit {
+    background: url(https://cdn.glitch.global/48663716-e0a2-4d64-bbe3-fe368046a8b0/castle4alt.png?v=1648870072670);
+    background-size: cover;
+}
+#button5 {
+    background: url(https://cdn.glitch.global/48663716-e0a2-4d64-bbe3-fe368046a8b0/castle5.png?v=1648870076485);
+    background-size: cover;
+}
+#button5:active, #button5.lit {
+    background: url(https://cdn.glitch.global/48663716-e0a2-4d64-bbe3-fe368046a8b0/castle5alt.png?v=1648870079734);
+    background-size: cover;
+}
+#button6 {
+    background: url(https://cdn.glitch.global/48663716-e0a2-4d64-bbe3-fe368046a8b0/castle6.png?v=1648875725153);
+    background-size: cover;
+}
+#button6:active, #button6.lit {
+    background: url(https://cdn.glitch.global/48663716-e0a2-4d64-bbe3-fe368046a8b0/castle6alt.png?v=1648875726461);
+    background-size: cover;
+}
+
+#gameButtonArea > button {
+  width:150px;
+  height:150px;
+  margin:2px;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+#gameButtonArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: auto;
+  position-bottom: 0;
+}
+.hidden {
+  display: none;
+}
