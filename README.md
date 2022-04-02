@@ -78,7 +78,7 @@ As good design is important to create a beautiful application, I believe CS clas
 First, I would implement a couple more optional features such as programming a limited amount of time for each 
 guess, adding specific sounds/audio per button, and adding the option of 3 guesses before the game ends. One of my 
 fancier ideas was to have a random tone duration per sound and have players replicate the duration of the tone. 
-For example, the first tone is around 1/4 second while the second tone is around 1/2 of a second. The player 
+For example, the first tone is around 1/4 second while the second tone is around 1 second. The player 
 would then have to perform a short press on the first tone and a longer press on the second tone. Next, I would revamp 
 my UI to have a more consistent and clean look by adding a font to match my beach theme and including more images as 
 background objects like a sun and palm trees. I love flat and minimalistic design, so I would add consistent vector 
