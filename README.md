@@ -38,7 +38,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-[Walkthrough](http://g.recordit.co/I197i0OUi2.gif)
+![Walkthrough](http://g.recordit.co/I197i0OUi2.gif)
 ![](gif2-link-here)
 ![](gif3-link-here)
 ![](gif4-link-here)
