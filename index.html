@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Ocean Tones</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Ocean Tones</h1>
+    <div id="container">
+      <div class="spacer"> </div>
+      <div id="space1"> </div>
+      <div id="movetext">
+        <div class="spacer"></div>
+        <div id="textbox">
+          <p id="text">Click on me to play!</p>
+        </div> 
+      </div>
+      <div id="ship">
+        <button id="startBtn" class="startstop" onclick="startGame()"></button>
+        <button id="stopBtn" class="startstop hidden" onclick="stopGame()"></button>
+      </div>
+      <div>
+        <div class="spacer"></div>
+        <div id="spacer2"></div>
+         <div id="space1"> </div>
+        <div id="gameButtonArea">
+          <button id="button1" onmousedown="startTone(1)" onmouseup="stopTone(1)" onclick="guess(1)"></button>
+          <button id="button2" onmousedown="startTone(2)" onmouseup="stopTone(2)" onclick="guess(2)"></button>
+          <button id="button3" onmousedown="startTone(3)" onmouseup="stopTone(3)" onclick="guess(3)"></button>
+          <button id="button4" onmousedown="startTone(4)" onmouseup="stopTone(4)" onclick="guess(4)"></button>
+          <button id="button5" onmousedown="startTone(5)" onmouseup="stopTone(5)" onclick="guess(5)"></button>
+          <button id="button6" onmousedown="startTone(6)" onmouseup="stopTone(6)" onclick="guess(6)"></button>
+        </div>
+      </div>
+      
+    </div>
+    
+    
+  </body>
+</html>
