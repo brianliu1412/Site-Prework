@@ -51,15 +51,20 @@ The following **additional** features are implemented:
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 ```markdown
-Time was the most challenging part in this application. I found this internship opportunity on March 30, and immediately
-began applying. I had to rearrange my schedule to make time between schoolwork for this application. Because I only had
-two days to apply, many of the features that I wanted to include could not be implemented due to time constraints.
-Once I coded the most basic functionality, I had to select which of the optional features I wanted to work on.
-I started off with most of the optional features that could easily be implemented in one sit-down such as improving
-the UI, changing sound tones, and customizing the buttons. After I finished these features, I worked on the other parts
-of the application. Any time I had left after completing these would be dedicated to polishing my game. Even though I was
-pressed for time, I set some time apart each day to work on my application. I made sure to use any possible bit of spare 
-time to formulate a polished application! 
+One challenge that I encountered while creating this submission was time management. I have a habit of focusing solely on 
+one task for hours on end. Sometimes, work that I have planned gets pushed back a day or two because I put all
+my energy into one specific task. During the application process, I felt that I always had schoolwork that I would 
+prioritize over this submission. When I did dedicate a block of time, I would get stuck on a little bug which would 
+sometimes take me up to an hour to debug. One example was when I was styling with css. No matter what I did, I couldn't 
+get flexbox to align my buckets (buttons) vertically. I stared at it for over 30 minutes with no avail. I realized 
+that I was never going to get anything done at this pace; something needed to change.  After taking a break, I quickly 
+realized what was wrong. I didn'tcreate my divs correctly, so flex styling wasn't being correctly applied. 
+I resolved to set some time aside each day to code a little to see if I could fix my bugs. 
+I spent anywhere from thirty minutes to an hour each day, slowly but surely improving my game and my responses. 
+Looking back, I realized that I didn't always have to do all my work in one sitting. Working a little bit each 
+day actually proved to be more efficient than sitting down and spending hours! Taking breaks and working on other 
+projects and assignments helped clear my mind and reset. This would often help me see the small bugs that were quite 
+literally right in front of me. 
 ```
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
